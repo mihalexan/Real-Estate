@@ -11,11 +11,26 @@ export default function Header() {
             <span className="text-red-500">Estate</span>
           </h1>
         </Link>
-        <form className="bg-white border p-3 rounded-lg flex items-center shadow-md">
+        <form className="bg-white border p-3 w-3/4 rounded-full flex items-center shadow-md ">
           <input
             type="text"
-            placeholder="Search..."
-            className="bg-transparent focus:outline-none w-24 sm:w-64 md:w-45 "
+            placeholder="Direction"
+            className="bg-transparent focus:outline-none w-24 sm:w-64 md:w-45 hover:placeholder:underline "
+          />
+          <input
+            type="text"
+            placeholder="Check in"
+            className="bg-transparent focus:outline-none w-24 sm:w-64 md:w-45 hover:placeholder:underline "
+          />
+          <input
+            type="text"
+            placeholder="Check out"
+            className="bg-transparent focus:outline-none w-24 sm:w-64 md:w-45 hover:placeholder:underline"
+          />
+          <input
+            type="text"
+            placeholder="Who?"
+            className="bg-transparent focus:outline-none w-24 sm:w-64 md:w-45 hover:placeholder:underline"
           />
           <FaSearch className="text-slate-950" />
         </form>
